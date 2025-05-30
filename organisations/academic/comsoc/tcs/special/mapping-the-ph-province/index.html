@@ -116,7 +116,7 @@
             fillOpacity: 0.3
           },
           onEachFeature: function (feature, layer) {
-            const name = feature.properties.NAME_3 || "Unknown Province";
+            const name = feature.properties.NAME_1 || "Unknown Province";
             layer.on({
               mouseover: function () {
                 layer.setStyle({
