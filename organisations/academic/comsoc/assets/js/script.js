@@ -1,4 +1,4 @@
-let colorMode = "light";
+let colorMode = "dark";
 
 function addExpandableProperty() {
   const clickables = document.querySelectorAll(".clickable");
