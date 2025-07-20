@@ -76,7 +76,7 @@
           <div class="d-flex flex-row align-items-center">
             <a href="../">
               <img class="me-2 bg-white rounded-circle" src="../assets/img/logo/comsoc.png"
-              style="width: 50px; height: 50px;">
+                style="width: 50px; height: 50px;">
             </a>
             <img class="me-2" src="assets/img/logo.png" style="height: 50px; width: auto;">
             <img class="" id="navImage" src="assets/img/CS WM W.png" style="height: 30px;">
@@ -101,9 +101,9 @@
     <div class="container">
       <div class="row">
         <div class="col">
-          <div class="text-body-secondary text-center border p-5">
-            Advertise with us
-          </div>
+          <a class="weatherwidget-io rounded-5" href="https://forecast7.com/en/13d95121d13/batangas/" data-label_1="BATANGAS"
+            data-label_2="WEATHER" data-font="Roboto" data-icons="Climacons Animated" data-theme="dark"
+            data-accent="">BATANGAS WEATHER</a>
         </div>
       </div>
     </div>
@@ -439,6 +439,18 @@
       navImage.src = dataSet[colorMode].logo;
       footerImage.src = dataSet[colorMode].logo;
     }
+  </script>
+
+  <script>
+    ! function (d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (!d.getElementById(id)) {
+        js = d.createElement(s);
+        js.id = id;
+        js.src = 'https://weatherwidget.io/js/widget.min.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }
+    }(document, 'script', 'weatherwidget-io-js');
   </script>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
