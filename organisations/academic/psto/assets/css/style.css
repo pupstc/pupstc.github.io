@@ -1,0 +1,17 @@
+* {
+  font-size: small;
+  transition: 0.5s ease;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.poppins {
+  font-family: 'Poppins';
+}
+
+.times {
+  font-family: 'Times New Romas';
+}
