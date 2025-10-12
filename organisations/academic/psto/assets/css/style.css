@@ -8,10 +8,37 @@ a {
   text-decoration: none;
 }
 
+.bold {
+  font-weight: 700;
+}
+
 .poppins {
   font-family: 'Poppins';
 }
 
 .times {
   font-family: 'Times New Romas';
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.glass {
+  backdrop-filter: blur(50px) brightness(100%) !important;
+  background-color: rgba(255, 255, 255, 0.6) !important;
+}
+
+.glass-clear {
+  backdrop-filter: blur(100px) brightness(100%) !important;
+  background-color: rgba(255, 255, 255, 0.2) !important;
+}
+
+[data-bs-theme=dark] .glass {
+  background-color: rgba(1, 1, 1, 0.6) !important;
+}
+
+[data-bs-theme=dark] .glass-clear {
+  backdrop-filter: blur(100px) brightness(100%) !important;
+  background-color: rgba(0, 0, 0, 0.2) !important;
 }
