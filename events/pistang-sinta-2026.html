@@ -14,7 +14,7 @@
 
   <link href="../assets/img/logo/pup.png" rel="icon">
 
-  <title>Events | Polytechnic University of the Philippines Sto Tomas Campus</title>
+  <title>Pistang Sinta 2026 | Events | Polytechnic University of the Philippines Sto Tomas Campus</title>
 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
@@ -22,6 +22,88 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
   <link href="../assets/css/style.css" rel="stylesheet">
+
+  <style>
+    .timeline-1 {
+      border-left: 3px solid #b565a7;
+      border-bottom-right-radius: 4px;
+      border-top-right-radius: 4px;
+      background: rgba(177, 99, 163, 0.09);
+      margin: 0 auto;
+      position: relative;
+      padding: 50px;
+      list-style: none;
+      text-align: left;
+      max-width: 40%;
+    }
+
+    @media (max-width: 767px) {
+      .timeline-1 {
+        max-width: 98%;
+        padding: 25px;
+      }
+    }
+
+    .timeline-1 .event {
+      border-bottom: 1px dashed #000;
+      padding-bottom: 25px;
+      margin-bottom: 25px;
+      position: relative;
+    }
+
+    @media (max-width: 767px) {
+      .timeline-1 .event {
+        padding-top: 30px;
+      }
+    }
+
+    .timeline-1 .event:last-of-type {
+      padding-bottom: 0;
+      margin-bottom: 0;
+      border: none;
+    }
+
+    .timeline-1 .event:before,
+    .timeline-1 .event:after {
+      position: absolute;
+      display: block;
+      top: 0;
+    }
+
+    .timeline-1 .event:before {
+      left: -207px;
+      content: attr(data-date);
+      text-align: right;
+      font-weight: 100;
+      font-size: 0.9em;
+      min-width: 120px;
+    }
+
+    @media (max-width: 767px) {
+      .timeline-1 .event:before {
+        left: 0px;
+        text-align: left;
+      }
+    }
+
+    .timeline-1 .event:after {
+      -webkit-box-shadow: 0 0 0 3px #b565a7;
+      box-shadow: 0 0 0 3px #b565a7;
+      left: -55.8px;
+      background: #fff;
+      border-radius: 50%;
+      height: 9px;
+      width: 9px;
+      content: "";
+      top: 5px;
+    }
+
+    @media (max-width: 767px) {
+      .timeline-1 .event:after {
+        left: -31.8px;
+      }
+    }
+  </style>
 </head>
 
 <body>
@@ -68,18 +150,226 @@
     </div>
   </div>
 
-  <div class="container">
+  <div class="container py-5">
     <div class="row my-3">
       <div class="col">
-        <div class="text-center h1 py-5">PUP Sto Tomas: Pistang Sinta 2026</div>
+        <div class="text-center display-3" style="color:maroon">PUP Sto Tomas: Pistang Sinta 2026</div>
       </div>
     </div>
   </div>
 
-  <div class="container">
+  <div class="container mb-5">
     <div class="row">
       <div class="col">
-        
+        <div class="text-center h2">Day 1: February 18 (Wednesday)</div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <div id="content">
+          <ul class="timeline-1 text-black">
+            <li class="event" data-date="12:30 - 1:00pm">
+              <h4 class="mb-3">Registration</h4>
+              <p>Get here on time, it's first come first serve. Be late, get turned away.</p>
+            </li>
+            <li class="event" data-date="2:30 - 4:00pm">
+              <h4 class="mb-3 pt-3">Opening Ceremony</h4>
+              <p>Get ready for an exciting event, this will kick off in amazing fashion with MOP &amp; Busta
+                Rhymes as an opening show.</p>
+            </li>
+            <li class="event" data-date="5:00 - 8:00pm">
+              <h4 class="mb-3 pt-3">Main Event</h4>
+              <p>This is where it all goes down. You will compete head to head with your friends and rivals. Get
+                ready!</p>
+            </li>
+            <li class="event" data-date="8:30 - 9:30pm">
+              <h4 class="mb-3 pt-3">Closing Ceremony</h4>
+              <p class="mb-0">See how is the victor and who are the losers. The big stage is where the winners
+                bask in their
+                own glory.</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container mb-5">
+    <div class="row">
+      <div class="col">
+        <div class="text-center h2">Day 2: February 19 (Thursday)</div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <div id="content">
+          <ul class="timeline-1 text-black">
+            <li class="event" data-date="12:30 - 1:00pm">
+              <h4 class="mb-3">Registration</h4>
+              <p>Get here on time, it's first come first serve. Be late, get turned away.</p>
+            </li>
+            <li class="event" data-date="2:30 - 4:00pm">
+              <h4 class="mb-3 pt-3">Opening Ceremony</h4>
+              <p>Get ready for an exciting event, this will kick off in amazing fashion with MOP &amp; Busta
+                Rhymes as an opening show.</p>
+            </li>
+            <li class="event" data-date="5:00 - 8:00pm">
+              <h4 class="mb-3 pt-3">Main Event</h4>
+              <p>This is where it all goes down. You will compete head to head with your friends and rivals. Get
+                ready!</p>
+            </li>
+            <li class="event" data-date="8:30 - 9:30pm">
+              <h4 class="mb-3 pt-3">Closing Ceremony</h4>
+              <p class="mb-0">See how is the victor and who are the losers. The big stage is where the winners
+                bask in their
+                own glory.</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container mb-5">
+    <div class="row">
+      <div class="col">
+        <div class="text-center h2">Day 3: February 20 (Friday)</div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <div id="content">
+          <ul class="timeline-1 text-black">
+            <li class="event" data-date="12:30 - 1:00pm">
+              <h4 class="mb-3">Registration</h4>
+              <p>Get here on time, it's first come first serve. Be late, get turned away.</p>
+            </li>
+            <li class="event" data-date="2:30 - 4:00pm">
+              <h4 class="mb-3 pt-3">Opening Ceremony</h4>
+              <p>Get ready for an exciting event, this will kick off in amazing fashion with MOP &amp; Busta
+                Rhymes as an opening show.</p>
+            </li>
+            <li class="event" data-date="5:00 - 8:00pm">
+              <h4 class="mb-3 pt-3">Main Event</h4>
+              <p>This is where it all goes down. You will compete head to head with your friends and rivals. Get
+                ready!</p>
+            </li>
+            <li class="event" data-date="8:30 - 9:30pm">
+              <h4 class="mb-3 pt-3">Closing Ceremony</h4>
+              <p class="mb-0">See how is the victor and who are the losers. The big stage is where the winners
+                bask in their
+                own glory.</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container mb-5">
+    <div class="row">
+      <div class="col">
+        <div class="text-center h2">Day 4: February 21 (Saturday)</div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <div id="content">
+          <ul class="timeline-1 text-black">
+            <li class="event" data-date="12:30 - 1:00pm">
+              <h4 class="mb-3">Registration</h4>
+              <p>Get here on time, it's first come first serve. Be late, get turned away.</p>
+            </li>
+            <li class="event" data-date="2:30 - 4:00pm">
+              <h4 class="mb-3 pt-3">Opening Ceremony</h4>
+              <p>Get ready for an exciting event, this will kick off in amazing fashion with MOP &amp; Busta
+                Rhymes as an opening show.</p>
+            </li>
+            <li class="event" data-date="5:00 - 8:00pm">
+              <h4 class="mb-3 pt-3">Main Event</h4>
+              <p>This is where it all goes down. You will compete head to head with your friends and rivals. Get
+                ready!</p>
+            </li>
+            <li class="event" data-date="8:30 - 9:30pm">
+              <h4 class="mb-3 pt-3">Closing Ceremony</h4>
+              <p class="mb-0">See how is the victor and who are the losers. The big stage is where the winners
+                bask in their
+                own glory.</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container mb-5">
+    <div class="row">
+      <div class="col">
+        <div class="text-center h2">Day 5: February 23 (Monday)</div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <div id="content">
+          <ul class="timeline-1 text-black">
+            <li class="event" data-date="12:30 - 1:00pm">
+              <h4 class="mb-3">Registration</h4>
+              <p>Get here on time, it's first come first serve. Be late, get turned away.</p>
+            </li>
+            <li class="event" data-date="2:30 - 4:00pm">
+              <h4 class="mb-3 pt-3">Opening Ceremony</h4>
+              <p>Get ready for an exciting event, this will kick off in amazing fashion with MOP &amp; Busta
+                Rhymes as an opening show.</p>
+            </li>
+            <li class="event" data-date="5:00 - 8:00pm">
+              <h4 class="mb-3 pt-3">Main Event</h4>
+              <p>This is where it all goes down. You will compete head to head with your friends and rivals. Get
+                ready!</p>
+            </li>
+            <li class="event" data-date="8:30 - 9:30pm">
+              <h4 class="mb-3 pt-3">Closing Ceremony</h4>
+              <p class="mb-0">See how is the victor and who are the losers. The big stage is where the winners
+                bask in their
+                own glory.</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container mb-5">
+    <div class="row">
+      <div class="col">
+        <div class="text-center h2">Day 6: February 24 (Tuesday)</div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <div id="content">
+          <ul class="timeline-1 text-black">
+            <li class="event" data-date="12:30 - 1:00pm">
+              <h4 class="mb-3">Registration</h4>
+              <p>Get here on time, it's first come first serve. Be late, get turned away.</p>
+            </li>
+            <li class="event" data-date="2:30 - 4:00pm">
+              <h4 class="mb-3 pt-3">Opening Ceremony</h4>
+              <p>Get ready for an exciting event, this will kick off in amazing fashion with MOP &amp; Busta
+                Rhymes as an opening show.</p>
+            </li>
+            <li class="event" data-date="5:00 - 8:00pm">
+              <h4 class="mb-3 pt-3">Main Event</h4>
+              <p>This is where it all goes down. You will compete head to head with your friends and rivals. Get
+                ready!</p>
+            </li>
+            <li class="event" data-date="8:30 - 9:30pm">
+              <h4 class="mb-3 pt-3">Closing Ceremony</h4>
+              <p class="mb-0">See how is the victor and who are the losers. The big stage is where the winners
+                bask in their
+                own glory.</p>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
   </div>
